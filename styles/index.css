@@ -1,0 +1,22 @@
+@import "./fonts.css";
+:root {
+  --red: #c90000;
+  --light_gray: #7d7c7c;
+  --gray: #504f4f;
+  --dark_gray: #323232;
+  --yellow: #ffc300;
+  --light_yellow: #fff6a3;
+  --light: #e3e3e3;
+  --app-bg: #f1f1f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins;
+  font-weight: 600;
+}
