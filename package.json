@@ -1,0 +1,16 @@
+{
+  "name": "food-hunt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --style=compressed scss:styles",
+    "sass:dev": "sass --watch  scss:styles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
