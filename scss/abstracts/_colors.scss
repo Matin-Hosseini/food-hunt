@@ -1,23 +1,28 @@
-:root {
-  --red: #c90000;
-  --light_gray: #7d7c7c;
-  --gray: #504f4f;
-  --dark_gray: #323232;
-  --yellow: #ffc300;
-  --light_yellow: #fff6a3;
-  --light: #e3e3e3;
-  --app-bg: #f1f1f1;
-}
-
+$primary: #c90000;
 $red: #c90000;
 $light_gray: #7d7c7c;
-$gray: #504f4f;
+$gray: #7d7c7c;
 $dark_gray: #323232;
 $yellow: #ffc300;
 $light_yellow: #fff6a3;
 $light: #e3e3e3;
 $app-bg: #f1f1f1;
 
-.name {
-  color: green;
-}
+$colors: (
+  red: (
+    default: #c90000,
+    100: #f4cccc,
+    200: #efb3b3,
+    300: #e99999,
+    400: #e48080,
+    500: #df6666,
+    600: #d94d4d,
+    700: #d43333,
+    800: #ce1a1a,
+    900: #c90000,
+  ),
+);
+
+$palette: (
+  primary: map-get($colors, red, default),
+);
