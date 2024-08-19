@@ -1,0 +1,19 @@
+@use "./../abstracts/" as abstracts;
+
+.btn {
+  padding: 0.8rem 1.6rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10rem;
+}
+
+.btn-primary {
+  border-color: abstracts.$primary;
+  background-color: abstracts.$primary;
+  color: white;
+}
+
+.btn-outline {
+  border-color: abstracts.$primary;
+  color: abstracts.$primary;
+}
