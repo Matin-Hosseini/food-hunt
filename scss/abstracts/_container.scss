@@ -1,0 +1,39 @@
+@use "breakpoints";
+
+$c-sm: 600px;
+$c-md: 740px;
+$c-lg: 990px;
+$c-xl: 1250px;
+$c-xxl: 1490px;
+
+.container {
+  padding: 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: breakpoints.$sm) {
+  .container {
+    max-width: $c-sm;
+  }
+}
+@media (min-width: breakpoints.$md) {
+  .container {
+    max-width: $c-md;
+  }
+}
+@media (min-width: breakpoints.$lg) {
+  .container {
+    max-width: $c-lg;
+  }
+}
+@media (min-width: breakpoints.$xl) {
+  .container {
+    max-width: $c-xl;
+  }
+}
+@media (min-width: breakpoints.$xxl) {
+  .container {
+    max-width: $c-xxl;
+  }
+}
